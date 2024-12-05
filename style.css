@@ -1,0 +1,172 @@
+#banner{
+    height: 90vh;
+    background: url('gardens.jpg');
+    background: linear-gradient(to right, hsla(0,0%,2%, 0.856), rgba(173, 17,17, 0.315)), url('gardens.jpg');
+    background-size: cover;
+
+}
+.navbar{
+    background: linear-gradient(to bottom, hsla(0,0%,2%,0.564)rgb(19, 13, 13));
+ }
+.navbar .nav-link{
+    color:black;
+}
+
+.btn{
+    padding: 15px 30px ;
+    transition: all;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 18px;
+
+}
+.btn-brand{
+    background-color: aliceblue;
+    border: 3px solid ;
+
+}
+.btn-brand:hover{
+    background-color: rgb(235, 55, 160);
+    color:rgb(37, 212, 224);
+    border-color: aqua;
+}
+section{
+    padding: 100px 0;
+
+    
+}
+#about h2{
+    font-size: 55px;
+    font-weight: 900;
+    color: black;
+    -webkit-text-stroke-color: 2px;
+    -webkit-text-stroke-width: rgb(49, 255, 49);
+
+}
+#about .btn-brand:hover{
+    color: black !important;
+    border-color: black !important;
+    
+}
+#about{
+    background-color: rbg(255,255,255);
+}
+.gwapa-me{
+    width: 50%;
+}
+#services .btn-brand:hover{
+    color: black !important;
+    border-color: black !important;
+    
+}
+.card {
+    transition: 0.3s, color 0.3s;
+    border: 5PX SOLID var(--border);
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+    border-radius: 30px;
+  
+}
+.card:hover{
+    background-color: black;
+}
+.card:hover .car-text,
+.card:hover .card-text,
+.card:hover.btn{
+    color: rgb(2, 204, 120);
+}
+#about h2{
+    font-size: 55px;
+    font-weight: 900;
+    color: rgb(255, 0, 0);
+    -webkit-text-stroke-color: 2px;
+    -webkit-text-stroke-width: white;
+
+}
+#services{
+    font-size: 55px;
+    font-weight: 900;
+    color: rgb(255, 0, 0);
+    -webkit-text-stroke-color: 2px;
+    -webkit-text-stroke-width: white;
+
+}
+#cta{
+    height: 70vh;
+    background: url('gardens.jpg');
+    background: linear-gradient(to right, hsla(0,0%,2%, 0.856), rgba(173, 17,17, 0.315)), url('gardens.jpg');
+    background-size: cover;
+
+}
+.testimonials img{
+    width: 75px;
+}
+.testimonials{
+    border: 2px solid rgb(57, 149, 57);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#about img 
+{
+    width: 450px;
+    height: 600px;
+    background-size: cover;
+    object-fit: cover;
+}
+#faq{
+    background-color: #fafafa;
+}
+.faq-section{
+    max-width: 800px;
+    border-radius: auto;
+}
+.accordion-item{
+    margin-bottom: 20px;
+    border-radius: 0 !important;
+}
+.accordion-button{
+    background-color: #f8f9fa;
+    border: none;
+    border-bottom: 1px solid #3df704;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: aqua;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s ;
+
+}
+.accordion-body{
+    border-left: 3px solid rgb(235, 55, 160);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #fff ;
+}
+.accordion-button:not(.collapsed){
+    background-color: rgb(230, 221, 221);
+    color: #fff;
+}
+.accordion-button:hover{
+    background-color: rgb(235, 167, 210);
+    color: #f5f5f5;
+}
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(3, 8, 12);
+}
+#footer ul.list-unstyled li a{
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+}
+#footer ul.list-unstyled li:hover a{
+    color: rgb(240, 240, 240);
+}
+.btn-outline-light{
+    border-color: #fff;
+    color: #fff;
+    border-radius: 0;
+}
